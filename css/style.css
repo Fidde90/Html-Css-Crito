@@ -21,6 +21,7 @@ body {
   border-radius: 30px;
   padding: 1.5rem 3rem;
   margin-top: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn i {
   margin-left: 5px;
@@ -40,6 +41,7 @@ body {
   padding: 15px 30px;
   font-weight: 600;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-black i {
   margin-left: 5px;
@@ -58,6 +60,7 @@ body {
   text-decoration: none;
   color: #191919;
   font-weight: 600;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-transparent i {
   margin-left: 5px;
@@ -76,6 +79,7 @@ body {
   background-color: #191919;
   text-decoration: none;
   color: rgb(217, 217, 217);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-round:hover {
   background-color: white;
@@ -250,9 +254,6 @@ body {
 }
 .wrapper-grid .showcase .section-buttons a {
   margin-bottom: 2rem;
-}
-.wrapper-grid .showcase .section-buttons .btn-transparent {
-  background-color: #F0EFE9;
 }
 .wrapper-grid .showcase .showcase-image {
   display: none;
@@ -1112,7 +1113,6 @@ body {
   border: none;
 }
 .message .container .inner-container button {
-  display: block;
   margin: 0 auto;
   width: 100%;
 }

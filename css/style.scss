@@ -22,6 +22,7 @@ body {
     border-radius: 30px;
     padding: 1.5rem 3rem;
     margin-top: none;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
     i {
         margin-left: 5px;
@@ -43,7 +44,7 @@ body {
     padding: 15px 30px;
     font-weight: 600;
     text-decoration: none;
-
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     i {
         margin-left: 5px;
         font-size: 0.85em;
@@ -63,7 +64,7 @@ body {
     text-decoration: none;
     color: #191919;
     font-weight: 600;
-
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     i {
         margin-left: 5px;
         font-size: 0.85em;
@@ -83,7 +84,7 @@ body {
     background-color: #191919;
     text-decoration: none;
     color: rgb(217, 217, 217);
-
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     &:hover {
         background-color: white;
 
@@ -295,10 +296,6 @@ body {
 
             a {
                 margin-bottom: 2rem;
-            }
-
-            .btn-transparent {
-                background-color: #F0EFE9;
             }
         }
 
@@ -1397,7 +1394,6 @@ body {
             }
 
             button {
-                display: block;
                 margin: 0 auto;
                 width: 100%;
             }
